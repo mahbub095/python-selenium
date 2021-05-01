@@ -22,7 +22,8 @@ class BaseTest(unittest.TestCase):
         self.driver = webdriver.Chrome('C:\\c\\90\\chromedriver.exe')
         # self.driver = webdriver.Firefox()
 
-        self.driver.get("https://bikroy.com/en/ads/dhaka")
+        # self.driver.get("https://bikroy.com/en/ads/dhaka")
+        self.driver.get("https://bikroy.com/en")
 
     def tearDown(self):
         self.driver.close()

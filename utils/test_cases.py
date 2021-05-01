@@ -14,7 +14,7 @@ def test_cases(number):
 testCases = [
     # [severity, description]
     ['Blocker', 'when user goes to main page, page should be loaded'],
-    ['Blocker', 'In Main page, when user search "Nexus 5" button, he should see result for Nexus 5'],
+    ['Blocker', 'HomePage'],
     ['Blocker', 'Check Link'],
     ['Blocker', 'Check Link'],
     ['Blocker', 'In Login Page, when user login with a valid user, he should see Home Page'],

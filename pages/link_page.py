@@ -6,7 +6,6 @@ from utils import users
 class LinkPage(BasePage):
     def __init__(self, driver):
         self.locator = LinkPageLocators
-        # self.locator = LinkPage2Locators
         super(LinkPage, self).__init__(driver)
 
     def click_link_button(self):
